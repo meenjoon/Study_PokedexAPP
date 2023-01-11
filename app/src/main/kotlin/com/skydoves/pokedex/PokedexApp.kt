@@ -19,5 +19,5 @@ package com.skydoves.pokedex
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
-@HiltAndroidApp
+@HiltAndroidApp //Hilt가 적용될 어플리케이션 클래스를 설정해준다.
 class PokedexApp : Application()
